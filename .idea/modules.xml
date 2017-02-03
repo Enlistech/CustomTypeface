@@ -3,10 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomTypeface.iml" filepath="$PROJECT_DIR$/CustomTypeface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CustomTypeface.iml" filepath="$PROJECT_DIR$/CustomTypeface.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/customfont/customfont.iml" filepath="$PROJECT_DIR$/customfont/customfont.iml" />
       <module fileurl="file://$PROJECT_DIR$/customfont/customfont.iml" filepath="$PROJECT_DIR$/customfont/customfont.iml" />
     </modules>
   </component>

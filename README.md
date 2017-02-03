@@ -1,5 +1,7 @@
 # Custom Typeface
 
+[![](https://jitpack.io/v/TheBrownArrow/CustomTypeface.svg)](https://jitpack.io/#TheBrownArrow/CustomTypeface)
+
 <img src="https://github.com/thebrownarrow/CustomTypeface/blob/master/screenshot.png" alt text="Screenshot" width="240" height="427" />
 
 
@@ -26,7 +28,7 @@ Add it in your root build.gradle at the end of repositories:
 **Step 2.** Add the dependency
 ```java
     dependencies {
-        compile 'com.github.thebrownarrow:CustomTypeface:1.0'
+        compile 'com.github.TheBrownArrow:CustomTypeface:1.0'
     }
 ```
 
