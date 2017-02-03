@@ -3,15 +3,90 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
     android:orientation="vertical">
 
     <com.thebrownarrow.customfont.CustomFontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="Hello World!"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp"
-        app:custom_typeface="fonts/Josef-In-Sans-Light.TTF" />
+        app:custom_typeface="fonts/Josef-In-Sans-Bold.TTF"
+        android:id="@+id/customFontTextView" />
 
+    <com.thebrownarrow.customfont.CustomFontEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/app_name"
+        android:padding="6dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:custom_typeface="fonts/Josef-In-Sans-Regular.TTF" />
+
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.thebrownarrow.customfont.CustomFontRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/male"
+            app:custom_typeface="fonts/Josef-In-Sans-Italic.TTF" />
+
+        <com.thebrownarrow.customfont.CustomFontRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="@string/female"
+            android:textColor="@color/colorPrimary"
+            app:custom_typeface="fonts/Josef-In-Sans-Italic.TTF" />
+    </RadioGroup>
+
+    <com.thebrownarrow.customfont.CustomFontCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/android_phone"
+        android:textSize="18sp"
+        app:custom_typeface="fonts/Josef-In-Sans-SemiBold.TTF" />
+
+    <com.thebrownarrow.customfont.CustomFontCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iphone_and_ipad"
+        android:textSize="18sp"
+        app:custom_typeface="fonts/Josef-In-Sans-SemiBold.TTF" />
+
+    <com.thebrownarrow.customfont.CustomFontCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/windows_phone"
+        android:textSize="18sp"
+        app:custom_typeface="fonts/Josef-In-Sans-SemiBold.TTF" />
+
+    <com.thebrownarrow.customfont.CustomFontButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:custom_typeface="fonts/Josef-In-Sans-Bold.TTF" />
 </LinearLayout>

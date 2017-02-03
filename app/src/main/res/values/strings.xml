@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">CustomTypeface</string>
+    <string name="app_name">Custom Typeface</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="android_phone">Android Phone</string>
+    <string name="iphone_and_ipad">iPhone and iPad</string>
+    <string name="windows_phone">Windows Phone</string>
 </resources>
