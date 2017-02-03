@@ -74,7 +74,7 @@ First of all add you custom font in your assets folder under main directory. or 
 # License
 
 ```
-Copyright © 2010 by The Brown Arrow
+Copyright © 2017 by The Brown Arrow
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
