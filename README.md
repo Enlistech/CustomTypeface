@@ -57,7 +57,7 @@ First of all add you custom font in your assets folder under main directory. or 
         android:padding="6dp"
         android:text="@string/app_name"
         android:textSize="30sp"
-        app:custom_font="@string/font_open_sans_light" />
+        app:custom_typeface="@string/font_open_sans_light" />
         ...
     <com.thebrownarrow.customfont.CustomFontTextView
         android:layout_width="wrap_content"
@@ -65,7 +65,7 @@ First of all add you custom font in your assets folder under main directory. or 
         android:padding="6dp"
         android:text="@string/app_name"
         android:textSize="30sp"
-        app:custom_font="OpenSans-Light.ttf" />
+        app:custom_typeface="OpenSans-Light.ttf" />
         ...
         </LinerLayout>
   ```
