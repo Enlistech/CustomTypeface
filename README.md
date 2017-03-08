@@ -68,7 +68,8 @@ First of all add you custom font in your assets folder under main directory. or 
         app:custom_typeface="OpenSans-Light.ttf" />
         ...
         </LinerLayout>
-  ```
+```
+**send me your apps!** <a href="mailto:storedeveloper17@gmail.com">storedeveloper17@gmail.com</a>
 
 
 # License
