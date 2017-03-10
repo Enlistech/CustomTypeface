@@ -69,7 +69,10 @@ First of all add you custom font in your assets folder under main directory. or 
         ...
         </LinerLayout>
 ```
-**send me your apps!** <a href="mailto:storedeveloper17@gmail.com">storedeveloper17@gmail.com</a>
+
+
+#
+We’d be really happy if you sent us links to your projects where you use our component. Just send an email to <a href="mailto:storedeveloper17@gmail.com">storedeveloper17@gmail.com</a> And do let us know if you have any questions or suggestion regarding the animation.
 
 
 # License
