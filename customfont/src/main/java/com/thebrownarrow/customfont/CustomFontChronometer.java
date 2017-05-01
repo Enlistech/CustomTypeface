@@ -36,7 +36,6 @@ public class CustomFontChronometer extends Chronometer {
         try {
             typeface = Typeface.createFromAsset(context.getAssets(), asset);
         } catch (Exception e) {
-            Log.e("Custom Typeface", "Unable to load typeface: " + e.getMessage());
             return false;
         }
         setTypeface(typeface);
