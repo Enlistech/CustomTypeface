@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/TheBrownArrow/CustomTypeface.svg)](https://jitpack.io/#TheBrownArrow/CustomTypeface)
 
-<img src="https://github.com/thebrownarrow/CustomTypeface/blob/master/screenshot.png" alt text="Screenshot" width="240" height="427" />
+<img src="https://github.com/TheBrownArrow/CustomTypeface/blob/master/screenshot.png" alt text="Screenshot" width="240" height="427" />
 
 
 ## Set Custom Font in Android
