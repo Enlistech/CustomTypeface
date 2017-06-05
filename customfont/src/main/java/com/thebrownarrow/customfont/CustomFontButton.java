@@ -31,13 +31,7 @@ public class CustomFontButton extends AppCompatButton {
     }
 
     public boolean applyCustomTypeface(Context context, String asset) {
-        Typeface typeface;
-        try {
-            typeface = Typeface.createFromAsset(context.getAssets(), asset);
-        } catch (Exception e) {
-            return false;
-        }
-        setTypeface(typeface);
+        setTypeface(FontCache.getTypeface(context, asset));
         return true;
     }
 }
